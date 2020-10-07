@@ -1,0 +1,208 @@
+ 
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .top {
+                width: 100%;
+            }
+            .right {
+                width: 274px;
+                background-color: azure;
+                float: left;
+            }
+            .logo {
+                padding: 30px 30px 0 30px;
+            }
+            .list-menu ul {
+                padding: 30px 30px 30px 40px;
+                overflow-y: scroll;
+                height: 494px;
+            }
+            .list-menu ul li {
+                list-style: none;
+                font-weight: bold;
+                line-height: 40px;
+            }
+            .list-menu a {
+                text-decoration: none;
+                color: black;
+            }
+            .icon {
+                padding: 0 30px 0 40px;
+            }
+            .icon i {
+                padding-right: 20px;
+            }
+            .left {
+                width: 1245px;
+                height: 652px;
+                float: right;
+                background-image: url(https://secureservercdn.net/198.71.233.68/3xf.d8b.myftpupload.com/wp-content/uploads/2020/05/download.jpg?time=1599712072);
+                background-position: left top;
+                background-repeat: no-repeat;
+                background-color: #efe9e9;
+            }
+            .slogan {
+                padding: 50px 0 0 0;
+            }
+            .slogan h1 {
+                text-align: center;
+                font-family: Abel;
+                font-weight: 400;
+                font-style: normal;
+                text-align: center;
+                color: white;
+                font-size: 65px;
+            }
+            .slogan h2 {
+                text-align: center;
+                font-family: Abel;
+                font-weight: 400;
+                font-style: normal;
+                text-align: center;
+                color: white;
+                font-size: 50px;
+            }
+            .form{
+            width: 1123px;
+            height: 720px;
+            background-color: white;
+            padding-left:20px;
+            margin-left: 50px;
+
+        }
+        .form-x{
+            width: 975px;
+            height: 777px;
+            display:block;
+            padding:20px 74px 74px 74px;
+            margin-top: 5px;
+            position: relative;
+            z-index: 1;
+            
+        }
+        .form-xx{
+            padding-top:30px; ;
+        }
+        .form-xx input{
+            margin: 15px 0 30px 0;
+        
+        }
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {  
+            background-color: #45a049;
+        }
+ 
+
+ 
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.r1{
+    width: 650px;
+    float: left;
+}
+.bautroi{
+    background-image: url(https://3xf.d8b.myftpupload.com/wp-content/uploads/2020/05/qtq80-It8n1j.jpeg?time=1600659936);
+    width: 1264px;
+    height: 743px;
+    margin-top: 89px;
+    display: inline-block;
+}
+.bt1{
+    height: 439px;
+    width: 1124px;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 130px;
+}
+.btt1{
+    width: 350px;
+    height: 439px;
+    margin-left: 20px; 
+    text-align: center;
+    float: left;
+}
+.btt1 p{
+    font-size: 20px;
+    color: #000000bf;
+    line-height: 30px;
+    padding-top:15px;
+}
+
+.phodem{
+    width: 1264px;
+    height: 500px;
+    margin-top: -10px;
+    background-image: url(https://3xf.d8b.myftpupload.com/wp-content/uploads/2020/05/qtq80-7ASu2I.jpeg?time=1600659936);
+}
+.pr{
+    width: 550px;
+    height: 500px;
+    text-align: left;
+    float: left;
+}
+.sixanh{
+    width: 1270px;
+    height: 890px;
+    background-color: red;
+}
+.cot1{
+    float: left;
+    width: 32%;
+    float: left;
+}
+.cot2{
+    float: left;
+    width: 32%;
+    color: white;
+}
+.cot3 {
+    float: left;
+    width: 32%;
+    color: white;
+}
+
+.cot1, .cot2, .cot3 {
+    margin: 5px;
+}
+.cot1 {
+    margin-left: 10px;
+}
+.cot11, .cot12 {
+    background-color: white;
+    box-shadow: 0 2rem 1.5rem -1.5rem rgba(33,37,41,0.15), 0 0 1.5rem 0.5rem rgba(33,37,41,0.05);
+    color: black;
+}
+.cot11 > h3, p {
+    padding: 5px;
+    color: black;
+}
+.cot12 > h3, p {
+    padding: 5px;
+    color: black;
+}
+ .cot12 > img {
+    width: 100.1%;
+}
+.cot11 > img {
+    width: 100.1%;
+}
+.cot12 {
+    margin-top: 10px;
+}
+
+    
+
+
