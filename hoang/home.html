@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image\site-icon.png" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="css\all.css">
     <link rel="stylesheet" href="css\bootstrap.css">
@@ -11,12 +12,8 @@
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="node_modules\animate\animate.min.css">
 
-    <!-- JS -->
-    <script src="js\jquery-3.5.1.slim.min.js"></script>
-    <script src="js\popper.min.js"></script>
-    <script src="js\bootstrap.min.js"></script>
-    <script src="js\bootstrap.bundle.min.js"></script>
-
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="uikit\css\uikit.min.css" />
 
     <title>Home</title>
 </head>
@@ -154,10 +151,10 @@
                     </div> -->
 
                     <div class="row">
-                        <div class="content-head">
+                        <div id="section01" class="content-head">
                             <img src="image\homepage_header_003.jpg" alt="Home Page" width="" max-height="1200px">
                             <div class="center">
-                                <h1 class="animate__animated animate__bounce">QT-Group</h1><br>
+                                <h1>QT-Group</h1><br>
                                 <p>
                                     THE GLOBAL QT-GROUP NOW HAS 1 COMPANY WITH MANY OFFICES IN VIETNAM , 2 COMPANIES IN
                                     CANADA AND 1 COMPANY IN THE USA. THE GROUP'S PRINCIPAL ACTIVITIES ARE IN ARTIFICIAL
@@ -175,11 +172,21 @@
                                     40 BILLION USD INVESTMENT MANAGEMENT GROUP IN CANADA (2017-2018), EACH COMPANY
                                     OUTSIDE VIETNAM THIS YEAR IS EXPECTED TO CALL FOR INVESTMENT OF 100 MILLION USD.</p>
                             </div>
-
+                            <a href="#section02"><span></span></a>
 
                         </div>
+                        <script>
+                            $(function () {
+                                $('a[href*=#]').on('click', function (e) {
+                                    e.preventDefault();
+                                    $('html, body').animate({
+                                        scrollTop: $($(this).attr('href')).offset().top
+                                    }, 900, 'linear');
+                                });
+                            });
+                        </script>
 
-                        <div class="content-body">
+                        <div id="section02" class="content-body">
                             <div class="title">
                                 <h2>Our Latest Works</h2>
                             </div>
@@ -357,6 +364,15 @@
         </div>
         <!--/container-->
     </header>
+
+    <!-- JS -->
+    <script src="js\jquery-3.5.1.slim.min.js"></script>
+    <script src="js\popper.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="uikit\js\uikit.min.js"></script>
+    <script src="uikit\js\uikit-icons.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
